@@ -5,9 +5,6 @@
 /* naar een idee van Jen Simmons */
 *, *::after, *::before {
   box-sizing:border-box;  
-}
-
-body {
   margin:0;
   padding: 0;
 }
@@ -17,7 +14,16 @@ button:not([disabled]) {
 }
 
 
+/****************/
+/* FONT INLADEN */
+/****************/
 
+@font-face {
+  font-family: 'supermario';
+  src: url('/font/supermario256-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 /*********************/
@@ -25,7 +31,12 @@ button:not([disabled]) {
 /*********************/
 
 :root {
-  --color-headings:crimson
+  --color-headings:crimson;
+  --mario-font: 'supermario';
+  --mariotekst-blauw: blue;
+  --mariotekst-rood: red;
+  --mariotekst-groen: green;
+  --mariotekst-geel: yellow;
 }
 
 
@@ -42,6 +53,11 @@ body {
 
 header {
   text-align: center;
+  margin: 2em;
+}
+
+header h1 {
+  margin-bottom: .5rem;
 }
 
 /* middensectie mario + buttons */
@@ -72,6 +88,40 @@ main section > img {
 /* titel bovenin pagina */
 h1 {
   color:var(--color-headings);
+  font-family: var(--mario-font);
+  font-size: 3em;
+  letter-spacing: -.3em;
+  -webkit-text-stroke: .08em black;
+}
+
+h1 span:nth-of-type(5) {
+  letter-spacing: 0;
+}
+
+/* blauwe letters */
+h1 span:first-of-type,
+h1 span:nth-of-type(9) {
+  color: var(--mariotekst-blauw);
+}
+
+/* gele letters */
+h1 span:nth-of-type(2),
+h1 span:nth-of-type(5),
+h1 span:nth-of-type(8) {
+  color: var(--mariotekst-geel);
+}
+
+/* groene letters */
+h1 span:nth-of-type(4),
+h1 span:nth-of-type(7),
+h1 span:nth-of-type(10) {
+  color: var(--mariotekst-groen);
+}
+
+/* rode letters */
+h1 span:nth-of-type(3),
+h1 span:nth-of-type(6) {
+  color: var(--mariotekst-rood);
 }
 
 /* titels van alle list items */
@@ -91,6 +141,5 @@ ol li h2 {
 }
 
 
-/* ... */
 
 
