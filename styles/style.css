@@ -1,3 +1,15 @@
+/****************/
+/* FONT INLADEN */
+/****************/
+
+@font-face {
+  font-family: 'supermario';
+  src: url('/font/supermario256-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /*************/
 /* CSS RESET */
 /*************/
@@ -14,28 +26,16 @@ button:not([disabled]) {
 }
 
 
-/****************/
-/* FONT INLADEN */
-/****************/
-
-@font-face {
-  font-family: 'supermario';
-  src: url('/font/supermario256-webfont.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 
 :root {
-  --mario-font: 'supermario';
-  --mariotekst-blauw: blue;
-  --mariotekst-rood: red;
-  --mariotekst-groen: green;
-  --mariotekst-geel: yellow;
+  --mario-font: supermario, Brush Script MT;
+  --mariotekst-blauw: #009CDA;
+  --mariotekst-rood: #E71E07;
+  --mariotekst-groen: #42B132;
+  --mariotekst-geel: #FCD000;
   --background-gradient: linear-gradient(0deg, rgba(3,173,252,1) 38%, rgba(255,255,255,1) 100%);
   --pixel: .5em;
 
@@ -46,6 +46,8 @@ button:not([disabled]) {
 
   --h2: arial;
   --ol-p: arial;
+
+  --tekst-op-onderkant: #fff;
 }
 
 
@@ -64,16 +66,16 @@ body {
 }
 
 .achtergrond {
-  position: absolute;
-  top: 51vh;
-  left: 0;
+  position: relative;
   background: linear-gradient(180deg, rgba(130,49,30,1) 38%, rgba(20,14,14,1) 100%);
   height: 49vh;
-  top: 51vh;
   z-index: -1;
 }
 
 .achtergrond div:first-of-type{
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100%;
   background-image: url(/images/gras.png);
@@ -546,6 +548,38 @@ body {
     calc(var(--pixel) * 14) calc(var(--pixel) * 15) var(--pixel-zwart);
 }
 
+/* mushroom uit buis */
+.achtergrond > img:first-of-type {
+  position: absolute;
+  width: 4em;
+  right: 0;
+  top: -5em;
+  z-index: -1;
+}
+
+.mushroomAnimation {
+  animation: shroomuitbuis 3s ease-in-out;
+}
+
+@keyframes shroomuitbuis {
+  0% {
+    transform: none;
+  }
+
+  100% {
+    transform: translateX(5em);
+  }
+}
+
+/* schild uit buis */
+.achtergrond > img:nth-of-type(2) {
+  position: absolute;
+  width: 4em;
+  left: 0;
+  top: -5em;
+  z-index: -1;
+}
+
 header {
   text-align: center;
   margin: 2em;
@@ -566,12 +600,17 @@ header h1 span:hover {
 /* middensectie mario + buttons */
 
 main section {
-  margin-top: 10em;
+  margin-top: 9em;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 13vh 3.5em;
+  margin: 10vh 3.5em 0 3.5em;
   height: 30vh;
+}
+
+button:active {
+  transform: translate(.1em, .1em);
+
 }
 
 main section button {
@@ -581,14 +620,12 @@ main section button {
   justify-content: space-between;
   background: none;
   border: none;
-  width: 5rem;
+  width: 3rem;
   aspect-ratio: 1/1.3;
-  margin-top: 2.1em;
 }
 
 main section button img {
   width: 100%;
-  
 }
 
 main section > img {
@@ -636,10 +673,11 @@ h1 span:nth-of-type(6) {
 
 /* titels van alle list items */
 ol {
-  margin-top: 4rem;
+  z-index: 100;
 }
 
 ol li {
+  padding-top: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -648,10 +686,14 @@ ol li {
 ol li h2 {
   text-align: center;
   font-family: var(--h2);
+  color: var(--tekst-op-onderkant);
 }
 
 ol li p {
   font-family: var(--ol-p); 
+  color: var(--tekst-op-onderkant);
+  margin: 1em 20vw 0 20vw;
+  font-size: 1em;
 }
 
 
