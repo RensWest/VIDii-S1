@@ -1,14 +1,31 @@
 // JavaScript Document
-console.log("Howdy!");
 
-const mushroomButton = document.getElementById('mushroomBtn');
-const mushroomImg = document.getElementById('mushroomImg')
+// Buttons Shell en Shroom
+const mushroomButton = document.querySelector('#mushroomBtn');
+const mushroomImg = document.querySelector('#mushroomImg');
+const shellButton = document.querySelector('#shellBtn');
+const shellImg = document.querySelector('#shellImg');
 
-mushroomButton.addEventListener("click", playAnimation);
+mushroomButton.addEventListener("click", playAnimationShroom);
 
-function playAnimation() {
-    // code to be executed
-    console.log('test2');
+    // classlist add en remove na 3000ms
+function playAnimationShroom() {
     mushroomImg.classList.add('mushroomAnimation');
+    setTimeout(() => {
+        mushroomImg.classList.remove('mushroomAnimation');
+      }, 3000)
+  };
 
-  }
+shellButton.addEventListener("click", playAnimationShell);
+
+function playAnimationShell() {
+    shellImg.classList.add('shellAnimation');
+    setTimeout(() => {
+        shellImg.classList.remove('shellAnimation');
+    }, 3000)
+};
+
+// foto/titel/tekst aanpassen op groter/kleiner worden
+        // var hierFotoMario = document.querySelector("main section img");
+        // var hierTitelMario = document.querySelector("ol li h2");
+        // var hierTekstMario = document.querySelector("ol li p");
