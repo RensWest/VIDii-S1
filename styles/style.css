@@ -63,14 +63,6 @@ header {
   margin: 2em;
 }
 
-header h1 {
-  margin-bottom: .5rem;
-}
-
-header h1 span {
-  display: inline-block;
-}
-
 header h1 span:hover {
   transform: translateY(-.3em);
 }
@@ -79,9 +71,14 @@ header h1 span:hover {
 h1 {
   color:var(--color-headings);
   font-family: var(--mario-font);
-  font-size: 3em;
+  font-size: 3.5em;
   letter-spacing: -.3em;
   -webkit-text-stroke: .08em black;
+  margin-bottom: .5rem;
+}
+
+header h1 span {
+  display: inline-block;
 }
 
 h1 span:nth-of-type(5) {
@@ -121,7 +118,7 @@ header p {
   text-shadow: #000 2px 2px;
   color: #fff;
   -webkit-text-stroke: .05em black;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 body {
@@ -625,7 +622,7 @@ main > section:nth-of-type(2) > img:first-of-type {
 }
 
 .mushroomAnimation {
-  animation: shroomuitbuis 2.5s ease-out;
+  animation: shroomuitbuis 2s ease-in;
 }
 
 @keyframes shroomuitbuis {
@@ -662,7 +659,7 @@ main > section:nth-of-type(2) > img:nth-of-type(2) {
 }
 
 .shellAnimation {
-  animation: shelluitbuis 2.5s ease-out;
+  animation: shelluitbuis 2s ease-in;
 }
 
 @keyframes shelluitbuis {
@@ -689,7 +686,7 @@ main > section:nth-of-type(2) > img:nth-of-type(2) {
   }
 }
 
-main section:first-of-type img.vergroot {
+main section:first-of-type img:nth-of-type(2).vergroot {
   animation: vergroten 1s ease-in-out;
 }
 
@@ -793,4 +790,8 @@ ol li p {
   font-size: 1em;
 }
 
+/* hidden list item */
+.hidden {
+  display: none;
+}
 

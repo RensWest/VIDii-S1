@@ -1,10 +1,10 @@
 // JavaScript Document
 
 // Buttons Shell en Shroom
-const mushroomButton = document.querySelector('#mushroomBtn');
-const mushroomImg = document.querySelector('#mushroomImg');
-const shellButton = document.querySelector('#shellBtn');
-const shellImg = document.querySelector('#shellImg');
+var mushroomButton = document.querySelector('#mushroomBtn');
+var mushroomImg = document.querySelector('#mushroomImg');
+var shellButton = document.querySelector('#shellBtn');
+var shellImg = document.querySelector('#shellImg');
 
 mushroomButton.addEventListener("click", playAnimationShroom);
 
