@@ -58,6 +58,8 @@ button:not([disabled]) {
 /********************/
 /* ALGEMENE STYLING */
 /********************/
+
+/* header met titel + ondertitel */
 header {
   text-align: center;
   margin: 2em;
@@ -121,6 +123,7 @@ header p {
   font-weight: 900;
 }
 
+/* body */
 body {
   background: var(--background-gradient);
   height: 100vh;
@@ -129,10 +132,11 @@ body {
   position: relative;
 }
 
+/* onderkant */
 main > section:nth-of-type(2) {
   position: relative;
   background: linear-gradient(180deg, rgba(130,49,30,1) 38%, rgba(20,14,14,1) 100%);
-  height: 49vh;
+  height: 60vh;
   z-index: -1;
 }
 
@@ -686,7 +690,7 @@ main > section:nth-of-type(2) > img:nth-of-type(2) {
   }
 }
 
-main section:first-of-type img:nth-of-type(2).vergroot {
+main > section:first-of-type > img.vergroot {
   animation: vergroten 1s ease-in-out;
 }
 
@@ -730,7 +734,7 @@ main section:first-of-type img:nth-of-type(2).vergroot {
 
 /* middensectie mario + buttons */
 
-main section:first-of-type {
+main > section:first-of-type {
   margin-top: 9em;
   display: flex;
   justify-content: space-between;
@@ -744,7 +748,7 @@ button:active {
 
 }
 
-main section:first-of-type button {
+main > section:first-of-type button {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -755,11 +759,11 @@ main section:first-of-type button {
   aspect-ratio: 1/1.3;
 }
 
-main section:first-of-type button img {
+main > section:first-of-type button img {
   width: 100%;
 }
 
-main section:first-of-type > img {
+main > section:first-of-type > img {
   height: 100%;
 }
 
@@ -788,6 +792,13 @@ ol li p {
   color: var(--tekst-op-onderkant);
   margin: 1em 20vw 0 20vw;
   font-size: 1em;
+}
+
+ol li section {
+  background: red;
+  width: 15em;
+  aspect-ratio: 1/1;
+  margin-top: 1rem;
 }
 
 /* hidden list item */

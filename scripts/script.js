@@ -26,6 +26,6 @@ function playAnimationShell() {
 };
 
 // foto/titel/tekst aanpassen op groter/kleiner worden
-        // var hierFotoMario = document.querySelector("main section img");
+        // var hierFotoMario = document.querySelector("#mariofoto");
         // var hierTitelMario = document.querySelector("ol li h2");
         // var hierTekstMario = document.querySelector("ol li p");
