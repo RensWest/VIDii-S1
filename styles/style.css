@@ -690,7 +690,7 @@ main > section:nth-of-type(2) > img:nth-of-type(2) {
   }
 }
 
-main > section:first-of-type > img.vergroot {
+main > section:first-of-type li img.vergroot {
   animation: vergroten 1s ease-in-out;
 }
 
@@ -732,6 +732,35 @@ main > section:first-of-type > img.vergroot {
   }
 }
 
+main > section:first-of-type li img.verklein {
+  animation: verklein 3s;
+}
+
+@keyframes verklein {
+  0% {
+    transform: none;
+  }
+
+  20% {
+    transform: translateY(-3em);
+  }
+
+  30% {
+    transform: translateY(-3em);
+  }
+
+  30% {
+    transform: translateY(-6em) rotate(0deg);
+  }
+
+  80% {
+    transform: translateY(-6em) rotate(900deg);
+  }
+
+  100% {
+    transform: translateY(100vh) rotate(900deg);
+  }
+}
 /* middensectie mario + buttons */
 
 main > section:first-of-type {
@@ -763,7 +792,13 @@ main > section:first-of-type button img {
   width: 100%;
 }
 
-main > section:first-of-type > img {
+
+main > section:first-of-type li {
+  height: 100%;
+  list-style: none;
+}
+
+main > section:first-of-type li img {
   height: 100%;
 }
 
@@ -792,13 +827,6 @@ ol li p {
   color: var(--tekst-op-onderkant);
   margin: 1em 20vw 0 20vw;
   font-size: 1em;
-}
-
-ol li section {
-  background: red;
-  width: 15em;
-  aspect-ratio: 1/1;
-  margin-top: 1rem;
 }
 
 /* hidden list item */
