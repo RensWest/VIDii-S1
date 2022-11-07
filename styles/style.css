@@ -9,6 +9,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'marioparty';
+  src: url('/font/Super\ Mario\ World\ Text\ Box.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /*************/
 /* CSS RESET */
@@ -31,7 +38,7 @@ button:not([disabled]) {
 /*********************/
 
 :root {
-  --mario-font: supermario, Brush Script MT;
+  --mario-font: supermario, 'Trebuchet MS', 'sans-serif';
   --mariotekst-blauw: #009CDA;
   --mariotekst-rood: #E71E07;
   --mariotekst-groen: #42B132;
@@ -48,7 +55,7 @@ button:not([disabled]) {
   --ol-p: arial;
 
   --tekst-op-onderkant: #fff;
-  --ondertitel: arial;
+  --ondertitel: marioparty, arial;
 }
 
 
@@ -79,7 +86,7 @@ h1 {
   font-family: var(--mario-font);
   font-size: 3.5em;
   letter-spacing: -.3em;
-  -webkit-text-stroke: .08em black;
+  -webkit-text-stroke: .07em black;
   margin-bottom: .5rem;
 }
 
