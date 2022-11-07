@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: 'supermario';
-  src: url('/font/supermario256-webfont.woff2') format('woff2');
+  src: url('./font/supermario256-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'marioparty';
-  src: url('/font/Super\ Mario\ World\ Text\ Box.woff2') format('woff2');
+  src: url('./font/Super\ Mario\ World\ Text\ Box.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
