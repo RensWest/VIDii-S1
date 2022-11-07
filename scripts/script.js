@@ -24,7 +24,7 @@ function playAnimationShroom() {
       var fotoMario = document.querySelector('main > section:first-of-type li img:nth-of-type(' + counter + ')');
       setTimeout(() => {
         fotoMario.classList.add("vergroot");
-        var audio = new Audio('/sounds/smb_powerup.wav');
+        var audio = new Audio('./sounds/smb_powerup.wav');
         audio.play();
         setTimeout(() => {
             fotoMario.classList.remove("vergroot");
@@ -75,7 +75,7 @@ function playAnimationShell() {
           }, 3000); // delay van de classlist remove
           setTimeout(() => {
             fotoMario.classList.add("verklein");
-            var audio = new Audio('/sounds/smb_mariodie.wav');
+            var audio = new Audio('./sounds/smb_mariodie.wav');
             audio.play();
             setTimeout(() => {
                 fotoMario.classList.remove("verklein");
