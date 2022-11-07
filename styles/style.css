@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: 'supermario';
-  src: url('./font/supermario256-webfont.woff2') format('woff2');
+  src: url('../font/supermario256-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'marioparty';
-  src: url('./font/Super\ Mario\ World\ Text\ Box.woff2') format('woff2');
+  src: url('../font/Super\ Mario\ World\ Text\ Box.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -169,7 +169,7 @@ main > section:nth-of-type(2) div:first-of-type{
   left: 0;
   width: 100vw;
   height: 100%;
-  background-image: url(/images/gras.png);
+  background-image: url(./images/gras.png);
   background-repeat: repeat-x;
 }
 
