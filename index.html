@@ -6,52 +6,75 @@
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>VIDii 2022/23 - Tijdlijn</title>
+	<title>Super Mario - VIDii 2022/23</title>
 	
+	<!-- favicon -->
+	<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA4+ApAPpELwD///8AR0f/AO2fZABlIdsAC7LbAGP39QCHkf8AForEALTf+gAAALUAWff1AAAAAAAAAAAAAAozOjMTIAAADKqlMxMgAAAMZkVREgAAAADGqqogAAAAAKqZkAAAAAAAmbAAAAAADAmwuwmZmaAMurALu7u7oAy6sJsLC6oAAMsACQkJAAAAxmYAAAAAAAAMZGYAAAAAAADERmeDwAAAAAzERNTAAAAAAAzMzAAAAAAAAAAAAADgBwAA4AcAAOAPAADwHwAA4AcAAMADAACAAQAAgAEAAIADAADADwAAwAEAAOADAADwBwAA+AcAAP4PAAD//wAA" rel="icon" type="image/x-icon" />
+
+	<!-- css -->
 	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
 <body>
 	<header>
 		<h1>
-			<span>S</span>
-			<span>U</span>
-			<span>P</span>
-			<span>E</span>
-			<span>R</span>
-			<span>M</span>
-			<span>A</span>
-			<span>R</span>
-			<span>I</span>
-			<span>O</SPan>
+			<a href="/index.html">
+				<span>S</span>
+				<span>U</span>
+				<span>P</span>
+				<span>E</span>
+				<span>R</span>
+				<span>M</span>
+				<span>A</span>
+				<span>R</span>
+				<span>I</span>
+				<span>O</SPan>
+			</a>
+			
 		</h1>
 		<p>Mario door de tijd heen</p>
 	</header>
 
 	<main>
+		<!-- Mario + vorige/volgende button -->
 		<section>
-			<button id="shellBtn">klik!<img src="/images/greenshell.png" alt=""></button>
+			<!-- Shell button -->
+			<!-- BRON: https://mario.fandom.com/fi/wiki/Koopa_Shell -->
+			<button id="shellBtn">Vorig jaar!<img src="/images/greenshell.png" alt=""></button>
 			
+			<!-- Lijst met foto's van mario -->
 			<li>
-				<img src="/images/mario1985.png" alt="">
+				<!-- BRON: https://www.pngwing.com/en/free-png-yfwzy -->
+				<img src="/images/mario1985.png" alt=""> 
+				<!-- BRON: https://my-miis.fandom.com/wiki/SMB2_Mario -->
 				<img src="/images/mario1988.png" alt="" class="hidden">
+				<!-- BRON: https://www.clipartmax.com/middle/m2i8d3A0A0K9i8b1_super-mario-advance-pixel-pals-super-mario-mario/ -->
 				<img src="/images/mario1990.png" alt="" class="hidden">
+				<!-- BRON: https://www.pngkey.com/pngs/super-mario-world/ -->
 				<img src="/images/mario1991.png" alt="" class="hidden">
+				<!-- BRON: https://www.pngitem.com/middle/iRxmTiR_super-mario-64-mario-png-super-mario-64/ -->
 				<img src="/images/mario1996.png" alt="" class="hidden">
+				<!-- BRON: https://www.pngwing.com/en/free-png-pgvrg -->
 				<img src="/images/mario2002.png" alt="" class="hidden">
+				<!-- BRON: https://nl.pinterest.com/pin/703335666810051480/ -->
 				<img src="/images/mario2007.png" alt="" class="hidden">
+				<!-- BRON: https://mario.fandom.com/nl/wiki/Mario -->
 				<img src="/images/mario2012.png" alt="" class="hidden">
+				<!-- BRON: https://nl.pinterest.com/pin/260575528417484918/ -->
 				<img src="/images/mario2015.png" alt="" class="hidden">
+				<!-- BRON: https://www.pngwing.com/en/free-png-peovf -->
 				<img src="/images/mario2017.png" alt="" class="hidden">
-				<img src="/images/greenshell.png" alt="" class="hidden">
+				<!-- BRON: https://www.creativebloq.com/news/mario-movie-body -->
+				<img src="/images/mario2022.jpeg" alt="" class="hidden">
 			</li>
 			
-			<button id="mushroomBtn">Klik!<img src="/images/mushroom.png" alt=""></button>
+			<!-- Mushroom button -->
+			<!-- BRON: https://mario.fandom.com/nl/wiki/Mushroom -->
+			<button id="mushroomBtn">Volgend jaar!<img src="/images/mushroom.png" alt=""></button>
 		</section>
 		
 		
-
+		<!-- Teksten van mario + vormgeving divjes -->
 		<section>
 			
 			<!-- grond -->
@@ -172,17 +195,19 @@
 
 			<!-- pipe rechts -->
 			<div></div>
+			<!-- foto onder pipe rechts -->
 			<img src="./images/mushroom.png" alt="" id="mushroomImg">
 
 			<!-- pipe links -->
 			<div></div>
+			<!-- foto onder pipe links -->
 			<img src="./images/greenshell.png" alt="" id="shellImg">
 			
 		</section>
 		
-		<!-- <div class="mariomap"></div> -->
 	</main>
 
+	<!-- JavaScript -->
 	<script src="scripts/script.js"></script>
 </body>
 	
