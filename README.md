@@ -47,23 +47,35 @@ Mijn startniveau is: Rood
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Voeren van shrooms om "verder" te komen is een goed idee.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
+  -
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Hoe ga je de achtergrond laten veranderen bij de horizontal scroll? Wat is hier de beste manie om dit te doen? foto's achter elkaar?
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
+  Alle Images achter elkaar plakken en op de overgang tussen de images/werelden een element die over mario heeft komt om hem daar achter te veranderen
 
   ### Bevinding 3:
-  ...
+  Hoe ga je mario veranderen? transitie?
+
+  #### oplossing:
+  Als ik idee 1 kies, dan het bovenstaande (bevinding 2) en anders door een leuke animatie die past bij het verder gaan en terug gaan. (voeren van mushrooms met de vergroot animatie en terug gaan door te raken met een "shell")
+
+  ### Bevinding 4:
+  Probeer het uniek voor mario te maken. Nu kunnen ook ander karakters in die plaats.
+
+  #### oplossing:
+  Ik heb voor "idee 3" gekozen. Dit is echt uniek en herkenbaar voor mario. Ik heb hier herkenbare animaties aan toegevoegd zodat het goed binnen de vormgeving valt.
+
+  ### Bevinding 5:
+  Je kan idee 1 en 3 combineren (Lopen door het level en het voeren van Mushrooms om verder te komen)
+
+  #### oplossing:
+  -
+
 
 </details>
 
@@ -76,23 +88,35 @@ Mijn startniveau is: Rood
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Nog geen bronnen bij de afbeeldingen.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
+  Bronnen van de gebruikte afbeeldingen terug gaan zoeken en in de code zetten.
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Font van mario wordt niet getoond op github.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Kijken waarom het font niet wordt ingeladen. Is dit door github of omdat het font niet goed opgehaald wordt.
 
 
   ### Bevinding 3:
-  ...
+  CSS selectors staan op willekeurige volgorde.
+
+  ### oplossing:
+  Kijken of ik structuur kan aanbrengen in mijn CSS selectors.
+
+  ### Bevinding 4:
+  Er zijn nog weinig states toegevoegd
+
+  ### oplossing:
+  States gaan toevoegen aan de buttons.
+
+  ### Bevinding 5:
+  Nog geen aandacht gegeven aan dark mode en reduced motion
+
+  ### oplossing:
+  Deze gaan toevoegen.
 
 </details>
 
