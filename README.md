@@ -169,6 +169,7 @@ Mijn startniveau is: Rood
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
+  Button disablen/verbergen wanneer je niet verder kan.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>

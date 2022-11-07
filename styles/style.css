@@ -44,6 +44,7 @@ button:not([disabled]) {
   --mariotekst-groen: #42B132;
   --mariotekst-geel: #FCD000;
   --background-gradient: linear-gradient(0deg, rgba(3,173,252,1) 38%, rgba(255,255,255,1) 100%);
+  --background-gradient-dark: linear-gradient(180deg, rgb(71, 26, 16), rgb(0, 0, 0) 70%);
   --pixel: .5em;
 
   --pixel-groen1: #74c741;
@@ -57,6 +58,8 @@ button:not([disabled]) {
   --tekst-op-onderkant: #fff;
   --ondertitel: marioparty, arial;
 }
+
+
 
 
 /********************/
@@ -154,7 +157,7 @@ body {
 /* onderkant */
 main > section:nth-of-type(2) {
   position: relative;
-  background: linear-gradient(180deg, rgba(79,255,68,1) 0%, rgba(130,49,30,1) 8%, rgba(20,14,14,1) 63%);
+  background: linear-gradient(180deg, rgba(130,49,30,1), rgba(20,14,14,1));
   height: 60vh;
   z-index: -1;
 }
@@ -795,6 +798,10 @@ main > section:first-of-type {
   height: 30vh;
 }
 
+button {
+  font-family: var(--mario-font), Arial, Helvetica, sans-serif;
+}
+
 /* button states */
 button:active {
   transform: translate(.1em, .1em);
@@ -876,5 +883,33 @@ ol li p {
 /* hidden list item */
 .hidden {
   display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(to top, #283E51, #0A2342);
+  }
+  
+  button {
+    color: white;
+  }
+
+  button:disabled {
+    color: rgb(100, 100, 100);
+  }
+
+  button img { 
+    filter: brightness(90%);
+  }
+
+  main > section:nth-of-type(2) {
+    background: var(--background-gradient-dark)
+  }
+
+  main > section:nth-of-type(2) div:first-of-type,
+  main > section:nth-of-type(2) div:nth-of-type(2),
+  main > section:nth-of-type(2) div:nth-of-type(3) {
+    filter: brightness(50%);
+  }
 }
 
