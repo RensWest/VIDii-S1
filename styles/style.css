@@ -22,14 +22,16 @@
 /*************/
 
 /* naar een idee van Jen Simmons */
-*, *::after, *::before {
-  box-sizing:border-box;  
-  margin:0;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
   padding: 0;
 }
 
 button:not([disabled]) {
-  cursor:pointer;
+  cursor: pointer;
 }
 
 
@@ -43,7 +45,7 @@ button:not([disabled]) {
   --mariotekst-rood: #E71E07;
   --mariotekst-groen: #42B132;
   --mariotekst-geel: #FCD000;
-  --background-gradient: linear-gradient(0deg, rgba(3,173,252,1) 38%, rgba(255,255,255,1) 100%);
+  --background-gradient: linear-gradient(0deg, rgba(3, 173, 252, 1) 38%, rgba(255, 255, 255, 1) 100%);
   --background-gradient-dark: linear-gradient(180deg, rgb(71, 26, 16), rgb(0, 0, 0) 70%);
   --pixel: .5em;
 
@@ -85,7 +87,7 @@ header h1 span:hover {
 
 /* titel bovenin pagina */
 h1 {
-  color:var(--color-headings);
+  color: var(--color-headings);
   font-family: var(--mario-font);
   font-size: 3.5em;
   letter-spacing: -.3em;
@@ -155,33 +157,33 @@ body {
 }
 
 /* onderkant */
-main > section:nth-of-type(2) {
+main>section:nth-of-type(2) {
   position: relative;
-  background: linear-gradient(180deg, rgba(130,49,30,1), rgba(20,14,14,1));
+  background: linear-gradient(180deg, rgba(130, 49, 30, 1), rgba(20, 14, 14, 1));
   height: 60vh;
   z-index: -1;
 }
 
 /* gras */
-main > section:nth-of-type(2) div:first-of-type{
+main>section:nth-of-type(2) div:first-of-type {
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100%;
-  background-image: url(./images/gras.png);
+  height: 2em;
+  background-image: url(../images/gras.png);
   background-repeat: repeat-x;
 }
 
 /* groene pipes */
-main > section:nth-of-type(2) div:nth-of-type(2) {
+main>section:nth-of-type(2) div:nth-of-type(2) {
   position: absolute;
   right: calc(var(--pixel) * 15);
   top: calc(var(--pixel) * 0);
   width: var(--pixel);
   aspect-ratio: 1/1;
   transform: rotate(270deg);
-  box-shadow: 
+  box-shadow:
     calc(var(--pixel) * 1) calc(var(--pixel) * 1) var(--pixel-zwart),
     calc(var(--pixel) * 2) calc(var(--pixel) * 1) var(--pixel-zwart),
     calc(var(--pixel) * 3) calc(var(--pixel) * 1) var(--pixel-zwart),
@@ -197,7 +199,7 @@ main > section:nth-of-type(2) div:nth-of-type(2) {
     calc(var(--pixel) * 13) calc(var(--pixel) * 1) var(--pixel-zwart),
     calc(var(--pixel) * 14) calc(var(--pixel) * 1) var(--pixel-zwart),
     calc(var(--pixel) * 15) calc(var(--pixel) * 1) var(--pixel-zwart),
-    
+
     calc(var(--pixel) * 1) calc(var(--pixel) * 2) var(--pixel-zwart),
     calc(var(--pixel) * 2) calc(var(--pixel) * 2) var(--pixel-groen1),
     calc(var(--pixel) * 3) calc(var(--pixel) * 2) var(--pixel-groen1),
@@ -307,7 +309,7 @@ main > section:nth-of-type(2) div:nth-of-type(2) {
     calc(var(--pixel) * 12) calc(var(--pixel) * 8) var(--pixel-groen1),
     calc(var(--pixel) * 13) calc(var(--pixel) * 8) var(--pixel-groen2),
     calc(var(--pixel) * 14) calc(var(--pixel) * 8) var(--pixel-zwart),
-    
+
     calc(var(--pixel) * 2) calc(var(--pixel) * 9) var(--pixel-zwart),
     calc(var(--pixel) * 3) calc(var(--pixel) * 9) var(--pixel-groen1),
     calc(var(--pixel) * 4) calc(var(--pixel) * 9) var(--pixel-groen2),
@@ -407,14 +409,14 @@ main > section:nth-of-type(2) div:nth-of-type(2) {
     calc(var(--pixel) * 14) calc(var(--pixel) * 15) var(--pixel-zwart);
 }
 
-main > section:nth-of-type(2) div:nth-of-type(3) {
+main>section:nth-of-type(2) div:nth-of-type(3) {
   position: absolute;
   left: calc(var(--pixel) * 15);
   top: calc(var(--pixel) * -16);
   width: var(--pixel);
   aspect-ratio: 1/1;
   transform: rotate(90deg);
-  box-shadow: 
+  box-shadow:
     calc(var(--pixel) * 1) calc(var(--pixel) * 1) var(--pixel-zwart),
     calc(var(--pixel) * 2) calc(var(--pixel) * 1) var(--pixel-zwart),
     calc(var(--pixel) * 3) calc(var(--pixel) * 1) var(--pixel-zwart),
@@ -430,7 +432,7 @@ main > section:nth-of-type(2) div:nth-of-type(3) {
     calc(var(--pixel) * 13) calc(var(--pixel) * 1) var(--pixel-zwart),
     calc(var(--pixel) * 14) calc(var(--pixel) * 1) var(--pixel-zwart),
     calc(var(--pixel) * 15) calc(var(--pixel) * 1) var(--pixel-zwart),
-    
+
     calc(var(--pixel) * 1) calc(var(--pixel) * 2) var(--pixel-zwart),
     calc(var(--pixel) * 2) calc(var(--pixel) * 2) var(--pixel-groen1),
     calc(var(--pixel) * 3) calc(var(--pixel) * 2) var(--pixel-groen1),
@@ -540,7 +542,7 @@ main > section:nth-of-type(2) div:nth-of-type(3) {
     calc(var(--pixel) * 12) calc(var(--pixel) * 8) var(--pixel-groen1),
     calc(var(--pixel) * 13) calc(var(--pixel) * 8) var(--pixel-groen2),
     calc(var(--pixel) * 14) calc(var(--pixel) * 8) var(--pixel-zwart),
-    
+
     calc(var(--pixel) * 2) calc(var(--pixel) * 9) var(--pixel-zwart),
     calc(var(--pixel) * 3) calc(var(--pixel) * 9) var(--pixel-groen1),
     calc(var(--pixel) * 4) calc(var(--pixel) * 9) var(--pixel-groen2),
@@ -641,12 +643,12 @@ main > section:nth-of-type(2) div:nth-of-type(3) {
 }
 
 /* mushroom uit buis */
-main > section:nth-of-type(2) > img:first-of-type {
+main>section:nth-of-type(2)>img:first-of-type {
   position: absolute;
   width: 4em;
   right: 0;
   top: -5em;
-  z-index: -1;
+  z-index: -1
 }
 
 .mushroomAnimation {
@@ -678,7 +680,7 @@ main > section:nth-of-type(2) > img:first-of-type {
 }
 
 /* schild uit buis */
-main > section:nth-of-type(2) > img:nth-of-type(2) {
+main>section:nth-of-type(2)>img:nth-of-type(2) {
   position: absolute;
   width: 4em;
   left: 0;
@@ -715,7 +717,7 @@ main > section:nth-of-type(2) > img:nth-of-type(2) {
 }
 
 /* animatie mario vergroten */
-main > section:first-of-type li img.vergroot {
+main>section:first-of-type li img.vergroot {
   animation: vergroten 1s ease-in-out;
 }
 
@@ -743,7 +745,7 @@ main > section:first-of-type li img.vergroot {
   70% {
     scale: 1.6;
   }
-  
+
   75% {
     scale: 1.5;
   }
@@ -758,7 +760,7 @@ main > section:first-of-type li img.vergroot {
 }
 
 /* animatie mario verkleinen */
-main > section:first-of-type li img.verklein {
+main>section:first-of-type li img.verklein {
   animation: verklein 3s;
 }
 
@@ -789,7 +791,7 @@ main > section:first-of-type li img.verklein {
 }
 
 /* middensectie mario + buttons */
-main > section:first-of-type {
+main>section:first-of-type {
   margin-top: 9em;
   display: flex;
   justify-content: space-between;
@@ -810,23 +812,23 @@ button:active {
 button:focus {
   border: none;
   outline: none;
-  Filter:drop-shadow(0 0 1em var(--pixel-zwart));
+  Filter: drop-shadow(0 0 1em var(--pixel-zwart));
 }
 
 #shellBtn:hover {
-  Filter:drop-shadow(0 0 .5em var(--mariotekst-rood));
+  Filter: drop-shadow(0 0 .5em var(--mariotekst-rood));
 }
 
 #mushroomBtn:hover {
-  Filter:drop-shadow(0 0 .5em var(--mariotekst-groen));
+  Filter: drop-shadow(0 0 .5em var(--mariotekst-groen));
 }
 
 button:focus {
-  Filter:drop-shadow(0 0 .5em --mariotekst-rood);
+  Filter: drop-shadow(0 0 .5em --mariotekst-rood);
 }
 
 /* button shroom en shell */
-main > section:first-of-type button {
+main>section:first-of-type button {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -837,17 +839,17 @@ main > section:first-of-type button {
 }
 
 /* grootte img in buttons */
-main > section:first-of-type button img {
+main>section:first-of-type button img {
   width: 4em;
 }
 
 
-main > section:first-of-type li {
+main>section:first-of-type li {
   height: 100%;
   list-style: none;
 }
 
-main > section:first-of-type li img {
+main>section:first-of-type li img {
   height: 100%;
   transition: 1s;
 }
@@ -856,28 +858,46 @@ main > section:first-of-type li img {
 
 /* titels van alle list items */
 ol {
-  z-index: 100;
+  height: 100%;
 }
 
 ol li {
-  padding-top: 2em;
+  padding-top: 3em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
 }
 
 ol li h2 {
   text-align: center;
   font-family: var(--h2);
   color: var(--tekst-op-onderkant);
+  font-size: 2em;
+}
+
+ol li section {
+  display: flex;
+  height: 15em;
+  margin-top: 2em;
+  justify-content: space-between;
+  width: 60vw;
+  gap: 10em;
 }
 
 ol li p {
-  font-family: var(--ol-p); 
+  font-family: var(--ol-p);
   color: var(--tekst-op-onderkant);
-  margin: 1em 20vw 0 20vw;
   font-size: 1em;
   min-width: 20em;
+}
+
+ol li iframe {
+  height: 100%;
+}
+
+iframe:hover {
+  cursor: pointer;
 }
 
 /* hidden list item */
@@ -885,11 +905,20 @@ ol li p {
   display: none;
 }
 
+.invisible {
+  opacity: 0;
+}
+
+.invisible:hover {
+  cursor: auto;
+}
+
+/* darkmode */
 @media (prefers-color-scheme: dark) {
   body {
     background: linear-gradient(to top, #283E51, #0A2342);
   }
-  
+
   button {
     color: white;
   }
@@ -898,18 +927,65 @@ ol li p {
     color: rgb(100, 100, 100);
   }
 
-  button img { 
+  button img {
     filter: brightness(90%);
   }
 
-  main > section:nth-of-type(2) {
+  main>section:nth-of-type(2) {
     background: var(--background-gradient-dark)
   }
 
-  main > section:nth-of-type(2) div:first-of-type,
-  main > section:nth-of-type(2) div:nth-of-type(2),
-  main > section:nth-of-type(2) div:nth-of-type(3) {
+  main>section:nth-of-type(2) div:first-of-type,
+  main>section:nth-of-type(2) div:nth-of-type(2),
+  main>section:nth-of-type(2) div:nth-of-type(3) {
     filter: brightness(50%);
   }
 }
 
+/* reduced animation */
+@media (prefers-reduced-motion) {
+  span:hover {
+    transform: translateY(-.05em) !important;
+  }
+
+  @keyframes vergroten {
+    0% {
+      scale: 1;
+    }
+  
+  
+    25% {
+      scale: 1.2;
+    }
+  
+    75% {
+      scale: 1;
+    }
+  
+    100% {
+      scale: 1.2;
+    }
+  }
+
+  @keyframes verklein {
+    0% {
+      transform: none;
+    }
+  
+    20% {
+      transform: translateY(-3em);
+    }
+  
+    30% {
+      transform: translateY(-3em) rotate(0deg);
+    }
+  
+    60% {
+      transform: rotate(.5turn);
+    }
+
+    100% {
+      transform: translateY(100vh) rotate(.5turn);
+    }
+  }
+}

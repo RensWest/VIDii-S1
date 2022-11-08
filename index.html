@@ -1,15 +1,17 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<title>Super Mario - VIDii 2022/23</title>
-	
+
 	<!-- favicon -->
-	<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA4+ApAPpELwD///8AR0f/AO2fZABlIdsAC7LbAGP39QCHkf8AForEALTf+gAAALUAWff1AAAAAAAAAAAAAAozOjMTIAAADKqlMxMgAAAMZkVREgAAAADGqqogAAAAAKqZkAAAAAAAmbAAAAAADAmwuwmZmaAMurALu7u7oAy6sJsLC6oAAMsACQkJAAAAxmYAAAAAAAAMZGYAAAAAAADERmeDwAAAAAzERNTAAAAAAAzMzAAAAAAAAAAAAADgBwAA4AcAAOAPAADwHwAA4AcAAMADAACAAQAAgAEAAIADAADADwAAwAEAAOADAADwBwAA+AcAAP4PAAD//wAA" rel="icon" type="image/x-icon" />
+	<link
+		href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA4+ApAPpELwD///8AR0f/AO2fZABlIdsAC7LbAGP39QCHkf8AForEALTf+gAAALUAWff1AAAAAAAAAAAAAAozOjMTIAAADKqlMxMgAAAMZkVREgAAAADGqqogAAAAAKqZkAAAAAAAmbAAAAAADAmwuwmZmaAMurALu7u7oAy6sJsLC6oAAMsACQkJAAAAxmYAAAAAAAAMZGYAAAAAAADERmeDwAAAAAzERNTAAAAAAAzMzAAAAAAAAAAAAADgBwAA4AcAAOAPAADwHwAA4AcAAMADAACAAQAAgAEAAIADAADADwAAwAEAAOADAADwBwAA+AcAAP4PAAD//wAA"
+		rel="icon" type="image/x-icon" />
 
 	<!-- css -->
 	<link href="styles/style.css" rel="stylesheet">
@@ -30,7 +32,7 @@
 				<span>I</span>
 				<span>O</SPan>
 			</a>
-			
+
 		</h1>
 		<p>Mario door de tijd heen</p>
 	</header>
@@ -40,12 +42,12 @@
 		<section>
 			<!-- Shell button -->
 			<!-- BRON: https://mario.fandom.com/fi/wiki/Koopa_Shell -->
-			<button id="shellBtn">Vorig jaar!<img src="./images/greenshell.png" alt=""></button>
-			
+			<button id="shellBtn" class="invisible">Vorig jaar!<img src="./images/greenshell.png" alt=""></button>
+
 			<!-- Lijst met foto's van mario -->
 			<li>
 				<!-- BRON: https://www.pngwing.com/en/free-png-yfwzy -->
-				<img src="./images/mario1985.png" alt=""> 
+				<img src="./images/mario1985.png" alt="">
 				<!-- BRON: https://my-miis.fandom.com/wiki/SMB2_Mario -->
 				<img src="./images/mario1988.png" alt="" class="hidden">
 				<!-- BRON: https://www.clipartmax.com/middle/m2i8d3A0A0K9i8b1_super-mario-advance-pixel-pals-super-mario-mario/ -->
@@ -67,155 +69,234 @@
 				<!-- BRON: https://www.creativebloq.com/news/mario-movie-body -->
 				<img src="./images/mario2022.png" alt="" class="hidden">
 			</li>
-			
+
 			<!-- Mushroom button -->
 			<!-- BRON: https://mario.fandom.com/nl/wiki/Mushroom -->
 			<button id="mushroomBtn">Volgend jaar!<img src="./images/mushroom.png" alt=""></button>
 		</section>
-		
-		
+
+
 		<!-- Teksten van mario + vormgeving divjes -->
 		<section>
-			
-			<!-- grond -->
+
+			<!-- gras -->
 			<div></div>
 
 			<!-- lijst met items -->
 			<ol>
 				<li>
-					<h2>Mario 1985</h2>
-					<p>Super Mario Bros. is een side-scrolling platformspel voor de NES, 
-						ontwikkeld en uitgegeven door het Japanse bedrijf Nintendo in 1985. 
-						Shigeru Miyamoto was verantwoordelijk voor het spel, dat bij zijn 
-						verschijning tot het meest uitgebreide spel van zijn tijd behoorde 
-						vanwege het aantal en de duur van de levels. Het spelprincipe uit 
-						Mario Bros., een arcadespel, werd door nieuwe elementen uitgebreid. 
-						Super Mario Bros. hoort met meer dan 40 miljoen verkochte exemplaren, 
-						waarvan 6,8 miljoen in Japan, bij de meestverkochte games aller tijden.
-					</p>
+					<h2>Super Mario Bros. (1985)</h2>
+					<section>
+						<p>Super Mario Bros. is een side-scrolling platformspel voor de NES,
+							ontwikkeld en uitgegeven door het Japanse bedrijf Nintendo in 1985.
+							Shigeru Miyamoto was verantwoordelijk voor het spel, dat bij zijn
+							verschijning tot het meest uitgebreide spel van zijn tijd behoorde
+							vanwege het aantal en de duur van de levels. Het spelprincipe uit
+							Mario Bros., een arcadespel, werd door nieuwe elementen uitgebreid.
+							Super Mario Bros. hoort met meer dan 40 miljoen verkochte exemplaren,
+							waarvan 6,8 miljoen in Japan, bij de meestverkochte games aller tijden.
+						</p>
+
+						<iframe src="https://www.youtube.com/embed/cWOkHQXw0JQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>					
+					</section>
+					
+				</li>
+
+				<li class="hidden">
+					<h2>Super Mario Bros. 2 (1988)</h2>
+					
+					<section>
+						<p>Super Mario Bros. 2 is de opvolger van Super Mario bros.. Het spel werd 
+							gemaakt onder leiding van Kensuke Tanabe van Nintendo en spel kwam op 
+							10 oktober 1988 op de markt in de Verenigde Staten, op 28 april 1989 
+							in Europa en in 1992 in Japan. Het spel werd in Japan uitgebracht als Super 
+							Mario USA. Een van de centrale spelmechanismen die Super Mario Bros. 2 
+							onderscheidt van andere Super Mario -spellen, is dat spelers vier personages 
+							kunnen selecteren: Mario, Luigi, Toad of Princess Toadstool. nadelen in hun 
+							statistieken. Een ander onderscheid is dat spelers vijanden niet kunnen 
+							verslaan door erop te stampen: spelers moeten ofwel items naar vijanden 
+							gooien of vijanden oppakken en naar elkaar gooien om ze te verslaan.
+						</p>
+
+						<iframe src="https://www.youtube.com/embed/tFPoNZoFBXM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>					</section>
+					
+				</li>
+
+				<li class="hidden">
+					<h2>Super Mario Bros. 3 (1990)</h2>
+					<section>
+						<p>Super Mario Bros. 3 is gemaakt voor de NES (Famicom),
+							SNES (Super Famicom), Game Boy Advance en Virtual Console. Super Mario Bros. 3 sluit
+							aan bij de serie van Super Mario Bros. en is de vijfde, officiële uitgave in de
+							Super Mario-videospelserie. Het spel werd wegens een groot succes vier keer hermaakt
+							en verscheen sinds de originele datum van release op vier verschillende spelsystemen.
+							Gedurende het spel moet de speler kiezen tussen twee karakters: Mario en Luigi.
+							Zij moeten acht uiteenlopende werelden doorkruisen om uiteindelijk Princess Peach
+							(Princess Toadstool) te redden van Bowser en zijn slaven. Gedurende het hoofdavontuur
+							kunnen beide karakters gebruikmaken van voorwerpen en power-ups om zich sterker op te
+							stellen tegen de vijanden en eindbazen.
+						</p>
+
+						<iframe src="https://www.youtube.com/embed/Na8rqq47gi0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</section>
+					
 				</li>
 				<li class="hidden">
-					<h2>Mario 1988</h2>
-					<p>Super Mario Bros. 2 is de opvolger van Super Mario bros.. Het spel werd 
-						gemaakt onder leiding van Kensuke Tanabe van Nintendo en spel kwam op 
-						10 oktober 1988 op de markt in de Verenigde Staten, op 28 april 1989 
-						in Europa en in 1992 in Japan. Het spel werd in Japan uitgebracht als Super 
-						Mario USA. Een van de centrale spelmechanismen die Super Mario Bros. 2 
-						onderscheidt van andere Super Mario -spellen, is dat spelers vier personages 
-						kunnen selecteren: Mario, Luigi, Toad of Princess Toadstool. nadelen in hun 
-						statistieken. Een ander onderscheid is dat spelers vijanden niet kunnen 
-						verslaan door erop te stampen: spelers moeten ofwel items naar vijanden 
-						gooien of vijanden oppakken en naar elkaar gooien om ze te verslaan.
-					</p>
+					<h2>Super Mario World (1991)</h2>
+					<section>
+						<p>Super Mario World is gemaakt voor de SNES en de Game Boy Advance. Hier werdt Yoshi voor
+							het eerst geïntroduceerd. Omdat deze gelijk werd gemaakt voor de SNES hadden de developers
+							veel meer mogelijkheden om het spel goed te maken. Super Mario World wordt gezien als een
+							van de beste spellen in de serie van Mario spellen. Dit spel is wereldwijd meer dan 2 miljoen
+							keer verkocht. De game kreeg de bestverkochte status op de SNES, kreeg veel lovende kritieken
+							en wordt vaak gezien in Nintendo 's beste games aller tijden op verschillende critici. Veel van
+							de in het spel geïntroduceerde personages, spelmechanica en artistieke thema's waren van invloed
+							op latere titels in de Mario -serie, waar het personage Yoshi populair genoeg was om een serie
+							met hem te ontvangen . De game werd in 1995 gevolgd door een prequel, Super Mario World 2:
+							Yoshi's Island , die zich vele jaren vóór de gebeurtenissen in Super Mario World afspeelt.
+						</p>
+						
+						<iframe src="https://www.youtube.com/embed/Vxg5eOPmzHI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</section>
+					
 				</li>
 				<li class="hidden">
-					<h2>Mario 1990</h2>
-					<p>Super Mario Bros. 3 is gemaakt voor de NES (Famicom), 
-						SNES (Super Famicom), Game Boy Advance en Virtual Console. Super Mario Bros. 3 sluit 
-						aan bij de serie van Super Mario Bros. en is de vijfde, officiële uitgave in de 
-						Super Mario-videospelserie. Het spel werd wegens een groot succes vier keer hermaakt 
-						en verscheen sinds de originele datum van release op vier verschillende spelsystemen. 
-						Gedurende het spel moet de speler kiezen tussen twee karakters: Mario en Luigi. 
-						Zij moeten acht uiteenlopende werelden doorkruisen om uiteindelijk Princess Peach 
-						(Princess Toadstool) te redden van Bowser en zijn slaven. Gedurende het hoofdavontuur 
-						kunnen beide karakters gebruikmaken van voorwerpen en power-ups om zich sterker op te 
-						stellen tegen de vijanden en eindbazen.
-					</p>
+					<h2>Super Mario 64 (1996)</h2>
+					<section>
+						<p>Super Mario 64 is de eerste mario die afstapte van de side-scrolling. Super Mario 64 legt
+							de nadruk op verkenning in de enorme werelden waarin de speler verscheidene missies moet
+							volbrengen. Het spel is door vele kritieken erkend als een van de meest revolutionaire
+							spellen ooit gemaakt. Mario is niet het enige personage in het verhaal. In zijn zoektocht
+							naar de sterren ontmoet hij meerdere personages. Super Mario 64 was een commercieel succes:
+							het was het best verkochte spel voor de Nintendo 64. In mei 2003 waren van het spel elf
+							miljoen stuks verkocht. Eind 2007 bevestigde Guinness World Records dat er 11,8 miljoen
+							stuks waren verkocht. In september 2007 was het spel het op zes na best verkochte spel
+							in de Verenigde Staten met zes miljoen stuks verkocht volgens de NPD Group.
+						</p>
+						
+						<iframe src="https://www.youtube.com/embed/vT3AaQ77ges?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</section>
+					
 				</li>
 				<li class="hidden">
-					<h2>Mario 1991</h2>
-					<p>Super Mario World is gemaakt voor de SNES en de Game Boy Advance. Hier werdt Yoshi voor 
-						het eerst geïntroduceerd. Omdat deze gelijk werd gemaakt voor de SNES hadden de developers 
-						veel meer mogelijkheden om het spel goed te maken. Super Mario World wordt gezien als een 
-						van de beste spellen in de serie van Mario spellen. Dit spel is wereldwijd meer dan 2 miljoen 
-						keer verkocht. De game kreeg de bestverkochte status op de SNES, kreeg veel lovende kritieken 
-						en wordt vaak gezien in Nintendo 's beste games aller tijden op verschillende critici. Veel van 
-						de in het spel geïntroduceerde personages, spelmechanica en artistieke thema's waren van invloed 
-						op latere titels in de Mario -serie, waar het personage Yoshi populair genoeg was om een serie 
-						met hem te ontvangen . De game werd in 1995 gevolgd door een prequel, Super Mario World 2: 
-						Yoshi's Island , die zich vele jaren vóór de gebeurtenissen in Super Mario World afspeelt .
-					</p>
-				</li>
-				<li class="hidden">
-					<h2>Mario 1996</h2>
-					<p>Super Mario 64 is de eerste mario die afstapte van de side-scrolling. Super Mario 64 legt 
-						de nadruk op verkenning in de enorme werelden waarin de speler verscheidene missies moet 
-						volbrengen. Het spel is door vele kritieken erkend als een van de meest revolutionaire 
-						spellen ooit gemaakt. Mario is niet het enige personage in het verhaal. In zijn zoektocht 
-						naar de sterren ontmoet hij meerdere personages. Super Mario 64 was een commercieel succes: 
-						het was het best verkochte spel voor de Nintendo 64. In mei 2003 waren van het spel elf 
-						miljoen stuks verkocht. Eind 2007 bevestigde Guinness World Records dat er 11,8 miljoen 
-						stuks waren verkocht. In september 2007 was het spel het op zes na best verkochte spel 
-						in de Verenigde Staten met zes miljoen stuks verkocht volgens de NPD Group. 
-					</p>
-				</li>
-				<li class="hidden">
-					<h2>Mario 2002</h2>
-					<p>Super Mario Sunshine is een platformspel voor de Nintendo GameCube. Het spel is het eerste 
-						Mario-platformspel op de console na Super Mario 64. Mario krijgy de schuld van een verduistering 
-						en de opdracht om het eiland te redden en de zonneschijn terug te krijgen. Super Mario Sunshine 
-						is de eerste game waarin Mario uitgebreid een accessoire gebruikt om zijn missie te voltooien.
-						F.L.U.D.D., een watersysteem, moet Mario zijn tegenstander Shadow Mario bestrijden. Dit is de 
-						enige 3D Mario -platformgame waarin Peach's Castle niet voorkomt.
-					</p>
+					<h2>Super Mario Sunshine (2002)</h2>
+					<section>
+						<p>Super Mario Sunshine is een platformspel voor de Nintendo GameCube. Het spel is het eerste
+							Mario-platformspel op de console na Super Mario 64. Mario krijgy de schuld van een verduistering
+							en de opdracht om het eiland te redden en de zonneschijn terug te krijgen. Super Mario Sunshine
+							is de eerste game waarin Mario uitgebreid een accessoire gebruikt om zijn missie te voltooien.
+							F.L.U.D.D., een watersysteem, moet Mario zijn tegenstander Shadow Mario bestrijden. Dit is de
+							enige 3D Mario -platformgame waarin Peach's Castle niet voorkomt.
+						</p>
+						
+						<iframe src="https://www.youtube.com/embed/9e11_HgnBUg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</section>
+					
 				</li>
 				<li class="hidden">
 					<h2>Mario 2007</h2>
-					<p>Super Mario Galaxy is een driedimensionaal platform-computerspel voor de Wii. Het spel is, 
-						sinds de uitgave van voorgangers Super Mario 64 in 1996 en Super Mario Sunshine in 2002, 
-						het derde 3D-platformspel in de hoofdserie van de Mariospellen. Dit spel speelt zich grotendeels
-						af in de ruimte. Dit spel kreeg in 2010 een vervolg: Super Mario Galaxy 2. Na de release kreeg 
-						Super Mario Galaxy lovende kritieken en commercieel succes. Het zag verschillende prijzen en 
-						onderscheidingen, waaronder van de Academy of Interactive Arts & Sciences , de Interactive 
-						Achievement Awards en de British Academy of Film and Television Arts . Er zijn 12,80 miljoen 
-						exemplaren van verkocht, waarmee het de negende bestverkochte Wii-game is.
-					</p>
+					<section>
+						<p>Super Mario Galaxy is een driedimensionaal platform-computerspel voor de Wii. Het spel is,
+							sinds de uitgave van voorgangers Super Mario 64 in 1996 en Super Mario Sunshine in 2002,
+							het derde 3D-platformspel in de hoofdserie van de Mariospellen. Dit spel speelt zich grotendeels
+							af in de ruimte. Dit spel kreeg in 2010 een vervolg: Super Mario Galaxy 2. Na de release kreeg
+							Super Mario Galaxy lovende kritieken en commercieel succes. Het zag verschillende prijzen en
+							onderscheidingen, waaronder van de Academy of Interactive Arts & Sciences , de Interactive
+							Achievement Awards en de British Academy of Film and Television Arts . Er zijn 12,80 miljoen
+							exemplaren van verkocht, waarmee het de negende bestverkochte Wii-game is.
+						</p>
+						
+						<iframe src="https://www.youtube.com/embed/iFAT6BqhE5A?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</section>
+					
 				</li>
 				<li class="hidden">
-					<h2>Mario 2012</h2>
-					<p>New Super Mario Bros. U is een spel in de Super Mario-reeks, uitgebracht als lanceerspel voor de Wii U.
-						Het spel is grafisch vergelijkbaar met New Super Mario Bros. Wii, maar is in HD. Het spel bevat ook een 
-						booststand, waarbij een speler met de Wii U GamePad de speler(s) met de Wii Remote(s) kan helpen door 
-						blokjes te plaatsen door op het scherm van de Wii U GamePad te tikken. De gameplay van New Super Mario Bros. 
-						lijkt veel op die van de klassieke 2D-platformgames, meestal Super Mario Bros. en Super Mario Bros. 3 , 
-						en bouwt er substantieel op voort om zowel klassieke als moderne gameplay te creëren. New Super Mario Bros. 
-						is het bestverkochte spel voor de Nintendo DS, met wereldwijd 30,80 miljoen verkochte exemplaren.
-					</p>
+					<h2>New Super Mario Bros. U (2012)</h2>
+					<section>
+						<p>New Super Mario Bros. U is een spel in de Super Mario-reeks, uitgebracht als lanceerspel voor de
+							Wii U.
+							Het spel is grafisch vergelijkbaar met New Super Mario Bros. Wii, maar is in HD. Het spel bevat
+							ook een
+							booststand, waarbij een speler met de Wii U GamePad de speler(s) met de Wii Remote(s) kan helpen
+							door
+							blokjes te plaatsen door op het scherm van de Wii U GamePad te tikken. De gameplay van New Super
+							Mario Bros.
+							lijkt veel op die van de klassieke 2D-platformgames, meestal Super Mario Bros. en Super Mario
+							Bros. 3 ,
+							en bouwt er substantieel op voort om zowel klassieke als moderne gameplay te creëren. New Super
+							Mario Bros.
+							is het bestverkochte spel voor de Nintendo DS, met wereldwijd 30,80 miljoen verkochte
+							exemplaren.
+						</p>
+						
+						<iframe src="https://www.youtube.com/embed/1uetntyZ5fA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</section>
+					
 				</li>
 				<li class="hidden">
-					<h2>Mario 2015</h2>
-					<p>Super Mario Maker is een computerspel voor Wii U waarbij de speler eigen levels van Super Mario Bros., 
-						Super Mario Bros. 3, Super Mario World en New Super Mario Bros. U kan creëren en online kan delen 
-						zodat andere spelers die levels ook kunnen spelen. Het spel startte als een tool van het interne 
-						ontwikkelingsteam van Nintendo om het binnen het bedrijf te gebruiken. Het team realiseerde echter 
-						al snel de potentie van de tool als een spel. De game is zo opgezet dat spelers hun eigen 2D Super Mario 
-						- banen kunnen ontwerpen. Ze kunnen de lengte en breedte van de podia, het thema van de baan en de 
-						spelstijlen instellen en bewerken, en kunnen verschillende objecten, items en vijanden gebruiken. 
-						Spelers kunnen schakelen tussen het bewerken en spelen van hun gemaakte levels, en kunnen gemakkelijk 
-						wijzigingen aanbrengen met behulp van de meegeleverde tools. Een overzichtsmodus kan ook worden 
-						gebruikt om Mario's bewegingen te laten zien en om het positioneren van objecten gemakkelijker te maken.
-						Het spel kreeg in 2019 een vervolg: Super Mario Maker 2.
-					</p>
+					<h2>Super Mario Maker (2015)</h2>
+					<section>
+						<p>Super Mario Maker is een computerspel voor Wii U waarbij de speler eigen levels van Super Mario
+							Bros.,
+							Super Mario Bros. 3, Super Mario World en New Super Mario Bros. U kan creëren en online kan
+							delen
+							zodat andere spelers die levels ook kunnen spelen. Het spel startte als een tool van het interne
+							ontwikkelingsteam van Nintendo om het binnen het bedrijf te gebruiken. Het team realiseerde
+							echter
+							al snel de potentie van de tool als een spel. De game is zo opgezet dat spelers hun eigen 2D
+							Super Mario
+							- banen kunnen ontwerpen. Ze kunnen de lengte en breedte van de podia, het thema van de baan en
+							de
+							spelstijlen instellen en bewerken, en kunnen verschillende objecten, items en vijanden
+							gebruiken.
+							Spelers kunnen schakelen tussen het bewerken en spelen van hun gemaakte levels, en kunnen
+							gemakkelijk
+							wijzigingen aanbrengen met behulp van de meegeleverde tools. Een overzichtsmodus kan ook worden
+							gebruikt om Mario's bewegingen te laten zien en om het positioneren van objecten gemakkelijker
+							te maken.
+							Het spel kreeg in 2019 een vervolg: Super Mario Maker 2.
+						</p>
+						
+						<iframe src="https://www.youtube.com/embed/5SOC31Udcis?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</section>
+					
 				</li>
 				<li class="hidden">
-					<h2>Mario 2017</h2>
-					<p>Super Mario Odyssey is een platformspel voor de Nintendo Switch en is de derde openwereldspel van 
-						de Super Mario-reeks. Mario moet Princess Peach uit de klauwen van Bowser houden, die met de prinses 
-						wil trouwen. Hiervoor moet Mario met behulp van een luchtschip, genaamd de Odyssey, door een aantal 
-						verschillende locaties reizigen, waaronder New Donk City, een kopie van de niet-fictieve stad New York.
-						In het spel heeft Mario een nieuw metgezel: zijn pet Cappy. 
-					</p>
+					<h2>Super Mario Odyssey (2017)</h2>
+					<section>
+						<p>Super Mario Odyssey is een platformspel voor de Nintendo Switch en is de derde openwereldspel van
+							de Super Mario-reeks. Mario moet Princess Peach uit de klauwen van Bowser houden, die met de
+							prinses
+							wil trouwen. Hiervoor moet Mario met behulp van een luchtschip, genaamd de Odyssey, door een
+							aantal
+							verschillende locaties reizigen, waaronder New Donk City, een kopie van de niet-fictieve stad
+							New York.
+							In het spel heeft Mario een nieuw metgezel: zijn pet Cappy.
+						</p>
+						
+						<iframe src="https://www.youtube.com/embed/sgHDIUxR23E?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</section>
+					
 				</li>
 				<li class="hidden">
-					<h2>Mario 2022</h2>
-					<p>The Super Mario Bros. Movie is een aankomende Japans, Amerikaanse computeranimatiefilm die gebaseerd 
-						is op de Super Mario spellen van Nintendo, de film zal worden geproduceerd door Nintendo in 
-						samenwerking met Illumination, Stemmen zullen o.a worden vertolkt door Chris Pratt, Charlie Day, 
-						Anya Taylor-Joy, Jack Black en Keegan-Michael Key. In 2016 besprak Nintendo over een Mario-film en 
-						kondigde uiteindelijk in januari 2018 aan dat ze zouden samenwerken met Illumination en Universal 
-						om een nieuwe film over Mario te produceren. Op 6 oktober 2022 werd via een speciaal aangekondigde 
-						Nintendo Direct de trailer van de film vertoond.
-					</p>
+					<h2>The Super Mario Bros. Movie (2022)</h2>
+					<section>
+						<p>The Super Mario Bros. Movie is een aankomende Japans, Amerikaanse computeranimatiefilm die
+							gebaseerd
+							is op de Super Mario spellen van Nintendo, de film zal worden geproduceerd door Nintendo in
+							samenwerking met Illumination, Stemmen zullen o.a worden vertolkt door Chris Pratt, Charlie Day,
+							Anya Taylor-Joy, Jack Black en Keegan-Michael Key. In 2016 besprak Nintendo over een Mario-film
+							en
+							kondigde uiteindelijk in januari 2018 aan dat ze zouden samenwerken met Illumination en
+							Universal
+							om een nieuwe film over Mario te produceren. Op 6 oktober 2022 werd via een speciaal
+							aangekondigde
+							Nintendo Direct de trailer van de film vertoond.
+						</p>
+						
+						<iframe src="https://www.youtube.com/embed/KydqdKKyGEk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</section>
+					
 				</li>
 			</ol>
 
@@ -228,13 +309,13 @@
 			<div></div>
 			<!-- foto onder pipe links -->
 			<img src="./images/greenshell.png" alt="" id="shellImg">
-			
+
 		</section>
-		
+
 	</main>
 
 	<!-- JavaScript -->
 	<script src="scripts/script.js"></script>
 </body>
-	
+
 </html>
