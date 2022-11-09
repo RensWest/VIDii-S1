@@ -43,7 +43,7 @@ function playAnimationShroom() {
 
         counter++
         if (counter == 11) {
-            mushroomButton.classList.add('invisible')
+          mushroomButton.classList.add('invisible')
         }
 
         contentSelector = document.querySelector('ol li:nth-child(' + counter + ')') // update queryselector met counter
@@ -97,9 +97,9 @@ function playAnimationShell() {
         counter--
 
         if (counter == 1) {
-            shellButton.classList.add('invisible')
+          shellButton.classList.add('invisible')
         }
-        
+
         contentSelector = document.querySelector('ol li:nth-child(' + counter + ')') // update queryselector met counter
         marioSelector = document.querySelector('main > section:first-of-type li img:nth-child(' + counter + ')')
 

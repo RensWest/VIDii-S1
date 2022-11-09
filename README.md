@@ -181,11 +181,17 @@ Mijn startniveau is: Rood
 
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
-
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
+1. https://mario.fandom.com/fi/wiki/Koopa_Shell
+2. https://www.pngwing.com/en/free-png-yfwzy
+3. https://my-miis.fandom.com/wiki/SMB2_Mario
+4. https://www.clipartmax.com/middle/m2i8d3A0A0K9i8b1_super-mario-advance-pixel-pals-super-mario-mario/
+5. https://www.pngkey.com/pngs/super-mario-world/
+6. https://www.pngitem.com/middle/iRxmTiR_super-mario-64-mario-png-super-mario-64/
+7. https://www.pngwing.com/en/free-png-pgvrg
+8. https://nl.pinterest.com/pin/703335666810051480/
+9. https://mario.fandom.com/nl/wiki/Mario
+10. https://nl.pinterest.com/pin/260575528417484918/
+11. https://www.pngwing.com/en/free-png-peovf
+12. https://www.creativebloq.com/news/mario-movie-body
 
 </details>
