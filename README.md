@@ -129,7 +129,7 @@ Mijn startniveau is: Rood
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Onderkant mooier maken
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -137,7 +137,7 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Leuke elementen toevoegen
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -145,7 +145,7 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 3:
-  ...
+  Kijken naar cursor dat die anders is op andere devices
 
 </details>
 

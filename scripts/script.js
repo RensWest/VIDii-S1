@@ -99,6 +99,7 @@ function playAnimationShell() {
         if (counter == 1) {
             shellButton.classList.add('invisible')
         }
+        
         contentSelector = document.querySelector('ol li:nth-child(' + counter + ')') // update queryselector met counter
         marioSelector = document.querySelector('main > section:first-of-type li img:nth-child(' + counter + ')')
 
@@ -107,8 +108,4 @@ function playAnimationShell() {
       }, 2820)
     }, 2000) // delay van de functie en classlist add
   }
-  // else {
-  //   console.log(counter)
-  //   shellButton.classList.add('invisible')
-  // }
 }
