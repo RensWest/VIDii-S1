@@ -42,6 +42,9 @@ function playAnimationShroom() {
         marioSelector.classList.add('hidden')
 
         counter++
+        if (counter == 11) {
+            mushroomButton.classList.add('invisible')
+        }
 
         contentSelector = document.querySelector('ol li:nth-child(' + counter + ')') // update queryselector met counter
         marioSelector = document.querySelector('main > section:first-of-type li img:nth-child(' + counter + ')')
@@ -64,6 +67,7 @@ shellButton.addEventListener("click", playAnimationShell);
 
 function playAnimationShell() {
   var shellImg = document.querySelector('#shellImg');
+  mushroomButton.classList.remove('invisible')
 
   var fotoMario = document.querySelector('main > section:first-of-type li img:nth-of-type(' + counter + ')');
   if (counter > 1) {
@@ -91,6 +95,10 @@ function playAnimationShell() {
         marioSelector.classList.add('hidden')
 
         counter--
+
+        if (counter == 1) {
+            shellButton.classList.add('invisible')
+        }
         contentSelector = document.querySelector('ol li:nth-child(' + counter + ')') // update queryselector met counter
         marioSelector = document.querySelector('main > section:first-of-type li img:nth-child(' + counter + ')')
 

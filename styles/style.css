@@ -906,6 +906,8 @@ ol li p {
   color: var(--tekst-op-onderkant);
   font-size: 1em;
   min-width: 20em;
+  overflow-y: scroll;
+  height: 14em;
 }
 
 ol li iframe {
