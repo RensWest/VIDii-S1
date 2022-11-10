@@ -166,20 +166,37 @@ Mijn startniveau is: Rood
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/eind_dark" width="375px" alt="final ontwerp">
+   <img src="readme-images/eind_light" width="375px" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb geleerd dat ik eerst een plan moet maken met waar welke elementen moeten komen voordat ik begin met coderen. Nu was ik gewoon maar begonnen met een basis idee en ben ik daar verder op gaan bouwen met nieuwe ideetjes.
+
+  Ik heb geleerd hoe ik "pixel art" kan maken met box shadows en hoe ik hierbij ook kan rekenen met variabelen zodat deze allemaal makkelijk aan te passen zijn.
+  <img src="readme-images/goed1.png" width="375px" alt="top">
+  <img src="readme-images/goed1.1.png" width="375px" alt="top">
+
+  Beginnen met Javascript ging voor mijn niveau wel goed. Ik wist de basis op te zetten voor de functies die ik uit wilde gaan voeren. Alleen de complexere dingen had ik hulp bij nodig, maar begrijp ik wel en dacht ik bij mee tijdens de hulp. Ik heb zelfs zelfstandig Javascript code gemaakt die ik voorheen niet zou kunnen.
+
+  Experimenteren met elementen waar ik nog nooit mee heb gewerkt. zoals een iframe.
+  <img src="readme-images/goed2.png" width="375px" alt="top">
+
+  
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
-  Button disablen/verbergen wanneer je niet verder kan.
+  
+  Een custom cursor toevoegen wanneer je over een button heen hovert.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Timing van het verbergen van de button, mijn code brak wanneer ik hiermee aan de slag ging en kwam door de tijd hier niet meer uit.
+
+  Ik ben nog niet helemaal tevreden met de vormgeving. Ik had nog graag leuke/grappige elemeten toe willen voegen aan de pagina en de onderkant (waar de tekst staat) nog wat mooier willen vormgeven.
+  <img src="readme-images/nietgelukt1.png" width="375px" alt="bummer">
+
 </details>
 
 

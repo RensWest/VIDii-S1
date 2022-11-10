@@ -109,3 +109,24 @@ function playAnimationShell() {
     }, 2000) // delay van de functie en classlist add
   }
 }
+
+// secret mario button
+var secretButton = document.querySelector("#secretbutton")
+
+secretButton.addEventListener("click", geluidje)
+
+function geluidje() {
+
+  var sound1 = new Audio('./sounds/sm64_1.wav');
+  var sound2 = new Audio('./sounds/sm64_2.wav');
+  var sound3 = new Audio('./sounds/sm64_3.wav');
+  var sound4 = new Audio('./sounds/sm64_4.wav');
+  var sound5 = new Audio('./sounds/sm64_5.wav');
+  var sound6 = new Audio('./sounds/sm64_6.wav');
+  var sound7 = new Audio('./sounds/sm64_7.wav');
+
+  let geluidjes = [sound1, sound2, sound3, sound4, sound5, sound6, sound7];
+
+  let random = geluidjes[Math.floor(Math.random() * geluidjes.length)];
+  random.play()
+}
