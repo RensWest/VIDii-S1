@@ -198,6 +198,10 @@ main>section:first-of-type div {
   bottom: 0;
 }
 
+img {
+  pointer-events: none;
+}
+
 main>section:first-of-type div img {
   position: relative;
   height: 3em;
