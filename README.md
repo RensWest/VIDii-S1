@@ -94,25 +94,33 @@ Mijn startniveau is: Rood
   Bronnen van de gebruikte afbeeldingen terug gaan zoeken en in de code zetten.
 
   ### Bevinding 2:
+  IMG's laden niet in op github.
+  <img src="readme-images/fb2b2.png" width="375px" alt="images die niet laden op pagina">
+
+  ### oplossing:
+  bij de 'src' ./ gebruiken ipv /
+
+  ### Bevinding 3:
   Font van mario wordt niet getoond op github.
+  <img src="readme-images/fb2b3.png" width="375px" alt="images die niet laden op pagina">
 
   #### oplossing:
   Kijken waarom het font niet wordt ingeladen. Is dit door github of omdat het font niet goed opgehaald wordt.
 
 
-  ### Bevinding 3:
+  ### Bevinding 4:
   CSS selectors staan op willekeurige volgorde.
 
   ### oplossing:
   Kijken of ik structuur kan aanbrengen in mijn CSS selectors.
 
-  ### Bevinding 4:
+  ### Bevinding 5:
   Er zijn nog weinig states toegevoegd
 
   ### oplossing:
   States gaan toevoegen aan de buttons.
 
-  ### Bevinding 5:
+  ### Bevinding 6:
   Nog geen aandacht gegeven aan dark mode en reduced motion
 
   ### oplossing:
