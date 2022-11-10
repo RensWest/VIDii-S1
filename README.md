@@ -26,7 +26,7 @@ Mijn startniveau is: Rood
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/eersteschets.png" width="375px" alt="eerste versie/schets">
+  <img src="./readme-images/eersteschets.png" width="375px" alt="eerste versie/schets">
 
 
   ### Je ambitie: 
@@ -95,14 +95,14 @@ Mijn startniveau is: Rood
 
   ### Bevinding 2:
   IMG's laden niet in op github.
-  <img src="readme-images/fb2b2.png" width="375px" alt="images die niet laden op pagina">
+  <img src="./readme-images/fb2b2.png" width="375px" alt="images die niet laden op pagina">
 
   ### oplossing:
   bij de 'src' ./ gebruiken ipv /
 
   ### Bevinding 3:
   Font van mario wordt niet getoond op github.
-  <img src="readme-images/fb2b3.png" width="375px" alt="images die niet laden op pagina">
+  <img src="./readme-images/fb2b3.png" width="375px" alt="images die niet laden op pagina">
 
   #### oplossing:
   Kijken waarom het font niet wordt ingeladen. Is dit door github of omdat het font niet goed opgehaald wordt.
